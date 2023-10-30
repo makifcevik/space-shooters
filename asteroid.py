@@ -4,7 +4,7 @@ import random
 MIN_SIZE = 15
 MAX_SIZE = 40
 MIN_VELOCITY = 2
-MAX_VELOCITY = 12
+MAX_VELOCITY = 5
 
 
 class Asteroid(Turtle):
@@ -27,7 +27,7 @@ class Asteroid(Turtle):
         # assign random size
         rand_w = random.randint(MIN_SIZE, MAX_SIZE) / 10
         rand_h = random.randint(MIN_SIZE, MAX_SIZE) / 10
-        self.shapesize(stretch_wid=rand_w,stretch_len= rand_h)
+        self.shapesize(stretch_wid=rand_w, stretch_len=rand_h)
 
         self.penup()
         self.speed("fastest")
