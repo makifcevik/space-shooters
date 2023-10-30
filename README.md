@@ -2,6 +2,8 @@
 
 This is a space shooter game implemented in Python using the Turtle graphics library. Players control a spaceship to shoot down enemy asteroids, providing an exciting space-themed gaming experience.
 
+<img src="./space_shooters_demo.gif">
+
 ## Features
 
 - Classic space shooter gameplay.
