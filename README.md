@@ -22,7 +22,7 @@ To run this space shooter game, you need to have Python installed on your system
 4. Run the game using the following command:
 
    ```bash
-   python space_shooter.py
+   python space-shooter.py
 
 ## Controls
 Use the arrow keys (Up, Down, Left, Right) to move your spaceship.
